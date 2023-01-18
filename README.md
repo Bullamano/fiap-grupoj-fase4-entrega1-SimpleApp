@@ -8,3 +8,9 @@ Aplicação menor a ser chamada dentro da aplicação de <a href="https://github
 Rode `npm start` no prompt dentro da pasta raiz do projeto para iniciar o servidor em `http://localhost:666/`.
 
 ##
+
+## A API
+
+A API pode ser acessada no endpoint `http://localhost:666/api/v1/simple-data` respondendo a informação mock: `justSomeData`.
+
+##
