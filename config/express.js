@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const config = require('config');
+const cors = require('cors');
 
 module.exports = () =>
 {
@@ -11,6 +12,8 @@ module.exports = () =>
 
     // MIDDLEWARES
     app.use(bodyParser.json());
+
+    app.use(cors());
 
     require('../api/routes/simpleData')(app);
 
