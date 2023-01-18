@@ -1,0 +1,27 @@
+{
+  "name": "atividadeentrega1simpleapp",
+  "version": "1.0.0",
+  "description": "Aplicação menor a ser chamada dentro da aplicação de <a href=\"https://github.com/Bullamano/fiap-grupoj-fase4-entrega1-Angular\">fiap-grupoj-fase4-entrega1-Angular</a> para simular CORS.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bullamano/fiap-grupoj-fase4-entrega1-SimpleApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bullamano/fiap-grupoj-fase4-entrega1-SimpleApp/issues"
+  },
+  "homepage": "https://github.com/Bullamano/fiap-grupoj-fase4-entrega1-SimpleApp#readme"
+}
